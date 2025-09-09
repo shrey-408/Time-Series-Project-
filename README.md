@@ -53,16 +53,3 @@ The model's performance is evaluated using the following metrics:
 
 These metrics provide a clear indication of the model's forecasting accuracy.
 """
-
-# --- Script to create and write the README.md file ---
-def generate_readme_file(content):
-    """Creates a README.md file with the provided content."""
-    try:
-        with open("README.md", "w") as file:
-            file.write(content)
-        print("README.md file has been successfully created.")
-    except IOError as e:
-        print(f"Error writing README.md file: {e}")
-
-if __name__ == "__main__":
-    generate_readme_file(readme_content)
