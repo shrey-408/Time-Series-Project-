@@ -1,12 +1,3 @@
-# Time-Series-Project-
-he project aims to solve the problem of predicting commodity prices, which are influenced by global and local economic factors. The core goal is to develop a robust ARIMA/SARIMA-based forecasting model to predict future prices for commodities like gold, oil, and agricultural products. The ultimate purpose is to provide traders reliable predictions.
-import os
-
-# --- The Markdown content for the README file ---
-# This is a multi-line string that contains the entire content of the README.md file.
-# It is structured with headings, lists, and code blocks.
-readme_content = """# Commodity Price Forecasting
-
 ## Project Overview
 This project focuses on developing a robust time-series forecasting model to predict future commodity prices. Using historical data, the model aims to capture underlying trends and seasonal fluctuations to provide accurate and actionable predictions. This is crucial for traders, investors, and policymakers who need to make data-driven decisions in a volatile market.
 
